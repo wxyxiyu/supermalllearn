@@ -31,6 +31,7 @@ Vue.use(VueRouter)
 ]
 
 const router = new VueRouter({
+  //有返回
   mode: 'history',
   base: process.env.BASE_URL,
   routes
